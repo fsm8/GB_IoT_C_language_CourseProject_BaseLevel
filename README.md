@@ -11,6 +11,8 @@ $${ \textsf{\LARGE \color{red} **Консольное приложение**} \L
 
 ![Screenshot.](/photo_termometer.jpg)
 
+<!-- <img src="/photo_termometer.jpg" width=20% height=20%> -->
+
 Консольное приложение осуществляет считывание текстового файла `.csv`, состоящего из строк следующего формата:
 
 YEAR | MONTH | DAY | HOUR | MINUTE | TEMPERATURE
