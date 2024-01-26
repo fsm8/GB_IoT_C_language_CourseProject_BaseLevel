@@ -1,4 +1,7 @@
-$${ \textsf{\LARGE \color{red} **Консольное приложение**} \LARGE \color{orange} \space **<<Статистика** \space **температуры>>**}$$
+<!-- $${ \textsf{\LARGE \color{red} **Консольное приложение**} \LARGE \color{orange} \space **<<Статистика** \space **температуры>>**}$$ -->
+$${ \textsf{\LARGE \color{red} **Консольное приложение**} }$$
+
+$${ \LARGE \color{orange} **<<Статистика** \space **температуры>>**}$$
 #
 
 Создано в рамках курсового проекта по предмету "Язык программирования Си. Базовый уровень" по программе обучения "Инженер умных устройств[^1]". :smiley:
@@ -9,9 +12,11 @@ $${ \textsf{\LARGE \color{red} **Консольное приложение**} \L
 Связаться с автором[^2]. 
 [^2]: <fsm8@mail.ru>
 
-![Screenshot.](/photo_termometer.jpg)
+<!-- ![Screenshot.](/photo_termometer.jpg) -->
 
-<!-- <img src="/photo_termometer.jpg" width=20% height=20%> -->
+<img src="/photo_termometer.jpg" width=30% height=30%>
+
+#
 
 Консольное приложение осуществляет считывание текстового файла `.csv`, состоящего из строк следующего формата:
 
@@ -73,4 +78,4 @@ struct temperature
 ```
 
 > [!IMPORTANT]
-> Makefile разработан для платформы Windows.
+> Makefile разработан для платформы [![WIN](/win.svg)](https://ru.wikipedia.org/wiki/Windows_10).
